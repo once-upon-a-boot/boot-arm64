@@ -1,0 +1,1912 @@
+{
+  "events": [
+    {
+      "ts": 1772339947117160000,
+      "label": "+ /home/user/.work/qemu/build/qemu-system-aarch64 -plugin /home/user/.work/qemu/build/..//build/contrib/plugins/libuftrace.so,trace-privilege-level=on -nodefaults -display none -serial mon:stdio -netdev user,id=vnet -device virtio-net-pci,netdev=vnet -M virt,secure=on,virtualization=on,gic-version=3,iommu=smmuv3 -cpu max -smp 1 -m 8G -bios ./out/flash.bin -kernel ./out/Image.gz -drive format=raw,file=./out/host.ext4,if=virtio -append 'nokaslr root=/dev/vda rw init=/init -- true' -virtfs local,path=/home/user/.work/qemu-linux-stack/,mount_tag=host,security_model=mapped,readonly=off"
+    },
+    {
+      "ts": 1772339947300016000,
+      "label": "NOTICE:  Booting Trusted Firmware"
+    },
+    {
+      "ts": 1772339947300472000,
+      "label": "NOTICE:  BL1: v2.13.0(debug):v2.13.0-2-g8a35efc"
+    },
+    {
+      "ts": 1772339947300629000,
+      "label": "NOTICE:  BL1: Built : 22:29:27, Feb 26 2026"
+    },
+    {
+      "ts": 1772339947301304000,
+      "label": "INFO:    BL1: RAM 0xe0ee000 - 0xe0f6000"
+    },
+    {
+      "ts": 1772339947302785000,
+      "label": "INFO:    BL1: Loading BL2"
+    },
+    {
+      "ts": 1772339947306249000,
+      "label": "INFO:    Loading image id=1 at address 0xe05b000"
+    },
+    {
+      "ts": 1772339947312405000,
+      "label": "INFO:    Image id=1 loaded: 0xe05b000 - 0xe063201"
+    },
+    {
+      "ts": 1772339947313668000,
+      "label": "NOTICE:  BL1: Booting BL2"
+    },
+    {
+      "ts": 1772339947316066000,
+      "label": "INFO:    Entry point address = 0xe05b000"
+    },
+    {
+      "ts": 1772339947316328000,
+      "label": "INFO:    SPSR = 0x3c5"
+    },
+    {
+      "ts": 1772339947328328000,
+      "label": "NOTICE:  BL2: v2.13.0(debug):v2.13.0-2-g8a35efc"
+    },
+    {
+      "ts": 1772339947328604000,
+      "label": "NOTICE:  BL2: Built : 22:29:29, Feb 26 2026"
+    },
+    {
+      "ts": 1772339947330090000,
+      "label": "INFO:    BL2: Doing platform setup"
+    },
+    {
+      "ts": 1772339947673861000,
+      "label": "INFO:    BL2: Loading image id 3"
+    },
+    {
+      "ts": 1772339947677543000,
+      "label": "INFO:    Loading image id=3 at address 0xe090000"
+    },
+    {
+      "ts": 1772339947692976000,
+      "label": "INFO:    Image id=3 loaded: 0xe090000 - 0xe0a00c4"
+    },
+    {
+      "ts": 1772339947694283000,
+      "label": "INFO:    BL2: Loading image id 5"
+    },
+    {
+      "ts": 1772339947694783000,
+      "label": "INFO:    Loading image id=5 at address 0x60000000"
+    },
+    {
+      "ts": 1772339947954050000,
+      "label": "INFO:    Image id=5 loaded: 0x60000000 - 0x60142d50"
+    },
+    {
+      "ts": 1772339947958637000,
+      "label": "NOTICE:  BL1: Booting BL31"
+    },
+    {
+      "ts": 1772339947959423000,
+      "label": "INFO:    Entry point address = 0xe090000"
+    },
+    {
+      "ts": 1772339947959592000,
+      "label": "INFO:    SPSR = 0x3cd"
+    },
+    {
+      "ts": 1772339947968574000,
+      "label": "NOTICE:  BL31: v2.13.0(debug):v2.13.0-2-g8a35efc"
+    },
+    {
+      "ts": 1772339947968733000,
+      "label": "NOTICE:  BL31: Built : 22:29:29, Feb 26 2026"
+    },
+    {
+      "ts": 1772339947970001000,
+      "label": "INFO:    GICv3 without legacy support detected."
+    },
+    {
+      "ts": 1772339947970170000,
+      "label": "INFO:    ARM GICv3 driver initialized in EL3"
+    },
+    {
+      "ts": 1772339947970767000,
+      "label": "INFO:    Maximum SPI INTID supported: 287"
+    },
+    {
+      "ts": 1772339947973599000,
+      "label": "INFO:    BL31: Initializing runtime services"
+    },
+    {
+      "ts": 1772339947977291000,
+      "label": "INFO:    BL31: Preparing for EL3 exit to normal world"
+    },
+    {
+      "ts": 1772339947977589000,
+      "label": "INFO:    Entry point address = 0x60000000"
+    },
+    {
+      "ts": 1772339947977824000,
+      "label": "INFO:    SPSR = 0x3c9"
+    },
+    {
+      "ts": 1772339947985879000,
+      "label": "Bloblist at 0 not found (err=-2)"
+    },
+    {
+      "ts": 1772339947986351000,
+      "label": "alloc space exhausted ptr 400 limit 0"
+    },
+    {
+      "ts": 1772339947990080000,
+      "label": "Bloblist at 0 not found (err=-2)"
+    },
+    {
+      "ts": 1772339948171815000,
+      "label": ""
+    },
+    {
+      "ts": 1772339948171863000,
+      "label": ""
+    },
+    {
+      "ts": 1772339948171920000,
+      "label": "U-Boot 2025.04 (Mar 01 2026 - 04:35:25 +0000)"
+    },
+    {
+      "ts": 1772339948171927000,
+      "label": ""
+    },
+    {
+      "ts": 1772339948181477000,
+      "label": "DRAM:  8 GiB"
+    },
+    {
+      "ts": 1772339949038769000,
+      "label": "Core:  51 devices, 14 uclasses, devicetree: board"
+    },
+    {
+      "ts": 1772339949137576000,
+      "label": "Flash: 32 MiB"
+    },
+    {
+      "ts": 1772339949179795000,
+      "label": "Loading Environment from Flash... *** Warning - bad CRC, using default environment"
+    },
+    {
+      "ts": 1772339949179828000,
+      "label": ""
+    },
+    {
+      "ts": 1772339949303235000,
+      "label": "In:    serial,usbkbd"
+    },
+    {
+      "ts": 1772339949303395000,
+      "label": "Out:   serial,vidconsole"
+    },
+    {
+      "ts": 1772339949303557000,
+      "label": "Err:   serial,vidconsole"
+    },
+    {
+      "ts": 1772339949572630000,
+      "label": "No USB controllers found"
+    },
+    {
+      "ts": 1772339949585269000,
+      "label": "Net:   eth0: virtio-net#32"
+    },
+    {
+      "ts": 1772339949594147000,
+      "label": "\u001b[?25h"
+    },
+    {
+      "ts": 1772339949599898000,
+      "label": "starting USB..."
+    },
+    {
+      "ts": 1772339949600123000,
+      "label": "No USB controllers found"
+    },
+    {
+      "ts": 1772339950640068000,
+      "label": "Hit any key to stop autoboot:  1 \b\b\b 0"
+    },
+    {
+      "ts": 1772339950641640000,
+      "label": "Scanning for bootflows in all bootdevs"
+    },
+    {
+      "ts": 1772339950641995000,
+      "label": "Seq  Method       State   Uclass    Part  Name                      Filename"
+    },
+    {
+      "ts": 1772339950642382000,
+      "label": "---  -----------  ------  --------  ----  ------------------------  ----------------"
+    },
+    {
+      "ts": 1772339950645150000,
+      "label": "Scanning global bootmeth 'efi_mgr':"
+    },
+    {
+      "ts": 1772339950773848000,
+      "label": "\u001b7\u001b[r\u001b[999;999H\u001b[6n\u001b8Cannot persist EFI variables without system partition"
+    },
+    {
+      "ts": 1772339950784172000,
+      "label": "Missing TPMv2 device for EFI_TCG_PROTOCOL"
+    },
+    {
+      "ts": 1772339950784879000,
+      "label": "Missing RNG device for EFI_RNG_PROTOCOL"
+    },
+    {
+      "ts": 1772339950791536000,
+      "label": "  0  efi_mgr      ready   (none)       0  <NULL>"
+    },
+    {
+      "ts": 1772339950791881000,
+      "label": "** Booting bootflow '<NULL>' with efi_mgr"
+    },
+    {
+      "ts": 1772339950807113000,
+      "label": "Loading Boot0000 'virtio 0' failed"
+    },
+    {
+      "ts": 1772339950807406000,
+      "label": "EFI boot manager: Cannot load any image"
+    },
+    {
+      "ts": 1772339950807676000,
+      "label": "Boot failed (err=-14)"
+    },
+    {
+      "ts": 1772339950813843000,
+      "label": "Scanning bootdev 'fw-cfg@9020000.bootdev':"
+    },
+    {
+      "ts": 1772339950826885000,
+      "label": "warning: no initrd available"
+    },
+    {
+      "ts": 1772339950830276000,
+      "label": "loading kernel to address 40400000 size 26c3a00"
+    },
+    {
+      "ts": 1772339950830912000,
+      "label": "  1  qfw          ready   qfw          0  qfw"
+    },
+    {
+      "ts": 1772339950831111000,
+      "label": "** Booting bootflow 'qfw' with qfw"
+    },
+    {
+      "ts": 1772339950846623000,
+      "label": "## Flattened Device Tree blob at 23e64cb90"
+    },
+    {
+      "ts": 1772339950847177000,
+      "label": "   Booting using the fdt blob at 0x23e64cb90"
+    },
+    {
+      "ts": 1772339950847586000,
+      "label": "Working FDT set to 23e64cb90"
+    },
+    {
+      "ts": 1772339951375189000,
+      "label": "   Loading Ramdisk to fd93c000, end fffffa00 ... OK"
+    },
+    {
+      "ts": 1772339951390171000,
+      "label": "   Loading Device Tree to 00000000fd936000, end 00000000fd93b245 ... OK"
+    },
+    {
+      "ts": 1772339951390359000,
+      "label": "Working FDT set to fd936000"
+    },
+    {
+      "ts": 1772339951454282000,
+      "label": ""
+    },
+    {
+      "ts": 1772339951454302000,
+      "label": "Starting kernel ..."
+    },
+    {
+      "ts": 1772339951454307000,
+      "label": ""
+    },
+    {
+      "ts": 1772339957153037000,
+      "label": "[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x000f0510]"
+    },
+    {
+      "ts": 1772339957156345000,
+      "label": "[    0.000000] Linux version 6.17.0-00001-g17a0ca42a969 (root@pc) (aarch64-linux-gnu-gcc (Debian 14.2.0-19) 14.2.0, GNU ld (GNU Binutils for Debian) 2.44) #1 SMP PREEMPT Thu Feb 26 22:28:57 UTC 2026"
+    },
+    {
+      "ts": 1772339957156967000,
+      "label": "[    0.000000] KASLR disabled on command line"
+    },
+    {
+      "ts": 1772339957157517000,
+      "label": "[    0.000000] random: crng init done"
+    },
+    {
+      "ts": 1772339957158174000,
+      "label": "[    0.000000] Machine model: linux,dummy-virt"
+    },
+    {
+      "ts": 1772339957158713000,
+      "label": "[    0.000000] efi: UEFI not found."
+    },
+    {
+      "ts": 1772339957159828000,
+      "label": "[    0.000000] OF: reserved mem: Reserved memory: No reserved-memory node in the DT"
+    },
+    {
+      "ts": 1772339957160959000,
+      "label": "[    0.000000] NUMA: Faking a node at [mem 0x0000000040000000-0x000000023fffffff]"
+    },
+    {
+      "ts": 1772339957161900000,
+      "label": "[    0.000000] NODE_DATA(0) allocated [mem 0x23eff3dc0-0x23eff63ff]"
+    },
+    {
+      "ts": 1772339957162356000,
+      "label": "[    0.000000] Zone ranges:"
+    },
+    {
+      "ts": 1772339957163356000,
+      "label": "[    0.000000]   DMA      [mem 0x0000000040000000-0x00000000ffffffff]"
+    },
+    {
+      "ts": 1772339957163873000,
+      "label": "[    0.000000]   DMA32    empty"
+    },
+    {
+      "ts": 1772339957164877000,
+      "label": "[    0.000000]   Normal   [mem 0x0000000100000000-0x000000023fffffff]"
+    },
+    {
+      "ts": 1772339957165809000,
+      "label": "[    0.000000] Movable zone start for each node"
+    },
+    {
+      "ts": 1772339957166441000,
+      "label": "[    0.000000] Early memory node ranges"
+    },
+    {
+      "ts": 1772339957167442000,
+      "label": "[    0.000000]   node   0: [mem 0x0000000040000000-0x000000023fffffff]"
+    },
+    {
+      "ts": 1772339957168547000,
+      "label": "[    0.000000] Initmem setup node 0 [mem 0x0000000040000000-0x000000023fffffff]"
+    },
+    {
+      "ts": 1772339957169371000,
+      "label": "[    0.000000] cma: Reserved 32 MiB at 0x00000000fb800000"
+    },
+    {
+      "ts": 1772339957170188000,
+      "label": "[    0.000000] psci: probing for conduit method from DT."
+    },
+    {
+      "ts": 1772339957170944000,
+      "label": "[    0.000000] psci: PSCIv1.1 detected in firmware."
+    },
+    {
+      "ts": 1772339957171790000,
+      "label": "[    0.000000] psci: Using standard PSCI v0.2 function IDs"
+    },
+    {
+      "ts": 1772339957172572000,
+      "label": "[    0.000000] psci: MIGRATE_INFO_TYPE not supported."
+    },
+    {
+      "ts": 1772339957173278000,
+      "label": "[    0.000000] psci: SMC Calling Convention v1.5"
+    },
+    {
+      "ts": 1772339957174266000,
+      "label": "[    0.000000] percpu: Embedded 24 pages/cpu s60824 r8192 d29288 u98304"
+    },
+    {
+      "ts": 1772339957175117000,
+      "label": "[    0.000000] Detected PIPT I-cache on CPU0"
+    },
+    {
+      "ts": 1772339957176422000,
+      "label": "[    0.000000] CPU features: detected: Address authentication (IMP DEF algorithm)"
+    },
+    {
+      "ts": 1772339957177255000,
+      "label": "[    0.000000] CPU features: detected: GICv3 CPU interface"
+    },
+    {
+      "ts": 1772339957178051000,
+      "label": "[    0.000000] CPU features: detected: HCRX_EL2 register"
+    },
+    {
+      "ts": 1772339957179280000,
+      "label": "[    0.000000] CPU features: detected: Stage-1 Permission Indirection Extension (S1PIE)"
+    },
+    {
+      "ts": 1772339957180314000,
+      "label": "[    0.000000] CPU features: detected: 52-bit Virtual Addressing (LPA2)"
+    },
+    {
+      "ts": 1772339957181361000,
+      "label": "[    0.000000] CPU features: detected: Virtualization Host Extensions"
+    },
+    {
+      "ts": 1772339957182068000,
+      "label": "[    0.000000] CPU features: detected: Spectre-v4"
+    },
+    {
+      "ts": 1772339957182845000,
+      "label": "[    0.000000] alternatives: applying boot alternatives"
+    },
+    {
+      "ts": 1772339957183945000,
+      "label": "[    0.000000] Kernel command line: nokaslr root=/dev/vda rw init=/init -- true"
+    },
+    {
+      "ts": 1772339957185080000,
+      "label": "[    0.000000] printk: log buffer data + meta data: 131072 + 458752 = 589824 bytes"
+    },
+    {
+      "ts": 1772339957186261000,
+      "label": "[    0.000000] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)"
+    },
+    {
+      "ts": 1772339957187662000,
+      "label": "[    0.000000] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)"
+    },
+    {
+      "ts": 1772339957188317000,
+      "label": "[    0.000000] software IO TLB: area num 1."
+    },
+    {
+      "ts": 1772339957189515000,
+      "label": "[    0.000000] software IO TLB: mapped [mem 0x00000000f7800000-0x00000000fb800000] (64MB)"
+    },
+    {
+      "ts": 1772339957190156000,
+      "label": "[    0.000000] Fallback order for Node 0: 0"
+    },
+    {
+      "ts": 1772339957191202000,
+      "label": "[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 2097152"
+    },
+    {
+      "ts": 1772339957191720000,
+      "label": "[    0.000000] Policy zone: Normal"
+    },
+    {
+      "ts": 1772339957192744000,
+      "label": "[    0.000000] mem auto-init: stack:all(zero), heap alloc:off, heap free:off"
+    },
+    {
+      "ts": 1772339957193768000,
+      "label": "[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1"
+    },
+    {
+      "ts": 1772339957194660000,
+      "label": "[    0.000000] rcu: Preemptible hierarchical RCU implementation."
+    },
+    {
+      "ts": 1772339957195395000,
+      "label": "[    0.000000] rcu: \tRCU event tracing is enabled."
+    },
+    {
+      "ts": 1772339957196445000,
+      "label": "[    0.000000] rcu: \tRCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1."
+    },
+    {
+      "ts": 1772339957197516000,
+      "label": "[    0.000000] \tTrampoline variant of Tasks RCU enabled."
+    },
+    {
+      "ts": 1772339957198328000,
+      "label": "[    0.000000] \tTracing variant of Tasks RCU enabled."
+    },
+    {
+      "ts": 1772339957199518000,
+      "label": "[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies."
+    },
+    {
+      "ts": 1772339957200592000,
+      "label": "[    0.000000] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1"
+    },
+    {
+      "ts": 1772339957201967000,
+      "label": "[    0.000000] RCU Tasks: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1."
+    },
+    {
+      "ts": 1772339957203369000,
+      "label": "[    0.000000] RCU Tasks Trace: Setting shift to 0 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=1."
+    },
+    {
+      "ts": 1772339957204224000,
+      "label": "[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0"
+    },
+    {
+      "ts": 1772339957205023000,
+      "label": "[    0.000000] GICv3: GIC: Using split EOI/Deactivate mode"
+    },
+    {
+      "ts": 1772339957205645000,
+      "label": "[    0.000000] GICv3: 256 SPIs implemented"
+    },
+    {
+      "ts": 1772339957206354000,
+      "label": "[    0.000000] GICv3: 0 Extended SPIs implemented"
+    },
+    {
+      "ts": 1772339957207118000,
+      "label": "[    0.000000] Root IRQ handler: gic_handle_irq"
+    },
+    {
+      "ts": 1772339957208019000,
+      "label": "[    0.000000] GICv3: GICv3 features: 16 PPIs"
+    },
+    {
+      "ts": 1772339957208765000,
+      "label": "[    0.000000] GICv3: GICD_CTLR.DS=0, SCR_EL3.FIQ=0"
+    },
+    {
+      "ts": 1772339957209847000,
+      "label": "[    0.000000] GICv3: CPU0: found redistributor 0 region 0:0x00000000080a0000"
+    },
+    {
+      "ts": 1772339957210530000,
+      "label": "[    0.000000] ITS [mem 0x08080000-0x0809ffff]"
+    },
+    {
+      "ts": 1772339957211953000,
+      "label": "[    0.000000] ITS@0x0000000008080000: allocated 8192 Devices @100040000 (indirect, esz 8, psz 64K, shr 1)"
+    },
+    {
+      "ts": 1772339957213513000,
+      "label": "[    0.000000] ITS@0x0000000008080000: allocated 8192 Interrupt Collections @100050000 (flat, esz 8, psz 64K, shr 1)"
+    },
+    {
+      "ts": 1772339957214455000,
+      "label": "[    0.000000] GICv3: using LPI property table @0x0000000100060000"
+    },
+    {
+      "ts": 1772339957215559000,
+      "label": "[    0.000000] GICv3: CPU0: using allocated LPI pending table @0x0000000100070000"
+    },
+    {
+      "ts": 1772339957216637000,
+      "label": "[    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention."
+    },
+    {
+      "ts": 1772339957217658000,
+      "label": "[    0.000000] arch_timer: cp15 timer(s) running at 1000.00MHz (phys)."
+    },
+    {
+      "ts": 1772339957219558000,
+      "label": "[    0.000000] clocksource: arch_sys_counter: mask: 0x1fffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns"
+    },
+    {
+      "ts": 1772339957220774000,
+      "label": "[    0.000258] sched_clock: 61 bits at 1000MHz, resolution 1ns, wraps every 4398046511103ns"
+    },
+    {
+      "ts": 1772339957221483000,
+      "label": "[    0.073262] Console: colour dummy device 80x25"
+    },
+    {
+      "ts": 1772339957222234000,
+      "label": "[    0.082395] printk: legacy console [tty0] enabled"
+    },
+    {
+      "ts": 1772339957223864000,
+      "label": "[    0.127755] Calibrating delay loop (skipped), value calculated using timer frequency.. 2000.00 BogoMIPS (lpj=10000000)"
+    },
+    {
+      "ts": 1772339957224618000,
+      "label": "[    0.130721] pid_max: default: 32768 minimum: 301"
+    },
+    {
+      "ts": 1772339957225323000,
+      "label": "[    0.144975] LSM: initializing lsm=capability"
+    },
+    {
+      "ts": 1772339957226515000,
+      "label": "[    0.160091] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)"
+    },
+    {
+      "ts": 1772339957227717000,
+      "label": "[    0.161177] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)"
+    },
+    {
+      "ts": 1772339957228693000,
+      "label": "[    0.316041] cacheinfo: Unable to detect cache hierarchy for CPU 0"
+    },
+    {
+      "ts": 1772339957229696000,
+      "label": "[    0.372984] rcu: Hierarchical SRCU implementation."
+    },
+    {
+      "ts": 1772339957230521000,
+      "label": "[    0.373450] rcu: \tMax phase no-delay instances is 1000."
+    },
+    {
+      "ts": 1772339957231292000,
+      "label": "[    0.403723] fsl-mc MSI: its@8080000 domain created"
+    },
+    {
+      "ts": 1772339957232014000,
+      "label": "[    0.432166] EFI services will not be available."
+    },
+    {
+      "ts": 1772339957232763000,
+      "label": "[    0.436717] smp: Bringing up secondary CPUs ..."
+    },
+    {
+      "ts": 1772339957233436000,
+      "label": "[    0.440466] smp: Brought up 1 node, 1 CPU"
+    },
+    {
+      "ts": 1772339957234200000,
+      "label": "[    0.440929] SMP: Total of 1 processors activated."
+    },
+    {
+      "ts": 1772339957234919000,
+      "label": "[    0.441383] CPU: All CPU(s) started at EL2"
+    },
+    {
+      "ts": 1772339957235869000,
+      "label": "[    0.442687] CPU features: detected: Branch Target Identification"
+    },
+    {
+      "ts": 1772339957236693000,
+      "label": "[    0.443254] CPU features: detected: 32-bit EL0 Support"
+    },
+    {
+      "ts": 1772339957237496000,
+      "label": "[    0.443681] CPU features: detected: 32-bit EL1 Support"
+    },
+    {
+      "ts": 1772339957238515000,
+      "label": "[    0.444091] CPU features: detected: ARMv8.4 Translation Table Level"
+    },
+    {
+      "ts": 1772339957239890000,
+      "label": "[    0.444614] CPU features: detected: Instruction cache invalidation not required for I/D coherence"
+    },
+    {
+      "ts": 1772339957241444000,
+      "label": "[    0.446048] CPU features: detected: Data cache clean to the PoU not required for I/D coherence"
+    },
+    {
+      "ts": 1772339957242430000,
+      "label": "[    0.446784] CPU features: detected: Common not Private translations"
+    },
+    {
+      "ts": 1772339957243257000,
+      "label": "[    0.447244] CPU features: detected: CRC32 instructions"
+    },
+    {
+      "ts": 1772339957244308000,
+      "label": "[    0.447652] CPU features: detected: Data independent timing control (DIT)"
+    },
+    {
+      "ts": 1772339957244957000,
+      "label": "[    0.448127] CPU features: detected: E0PD"
+    },
+    {
+      "ts": 1772339957245940000,
+      "label": "[    0.448500] CPU features: detected: Enhanced Counter Virtualization"
+    },
+    {
+      "ts": 1772339957247035000,
+      "label": "[    0.448954] CPU features: detected: Enhanced Counter Virtualization (CNTPOFF)"
+    },
+    {
+      "ts": 1772339957248015000,
+      "label": "[    0.449441] CPU features: detected: Enhanced Privileged Access Never"
+    },
+    {
+      "ts": 1772339957248974000,
+      "label": "[    0.449893] CPU features: detected: Enhanced Virtualization Traps"
+    },
+    {
+      "ts": 1772339957249804000,
+      "label": "[    0.450364] CPU features: detected: Fine Grained Traps"
+    },
+    {
+      "ts": 1772339957250733000,
+      "label": "[    0.450878] CPU features: detected: Guarded Control Stack (GCS)"
+    },
+    {
+      "ts": 1772339957262325000,
+      "label": "[    0.451581] CPU features: detected: Generic authentication (IMP DEF algorithm)"
+    },
+    {
+      "ts": 1772339957263136000,
+      "label": "[    0.452392] CPU features: detected: RCpc load-acquire (LDAPR)"
+    },
+    {
+      "ts": 1772339957264107000,
+      "label": "[    0.453000] CPU features: detected: 52-bit Virtual Addressing for KVM (LPA2)"
+    },
+    {
+      "ts": 1772339957264918000,
+      "label": "[    0.453497] CPU features: detected: LSE atomic instructions"
+    },
+    {
+      "ts": 1772339957265939000,
+      "label": "[    0.453932] CPU features: detected: Memory Copy and Memory Set instructions"
+    },
+    {
+      "ts": 1772339957266791000,
+      "label": "[    0.454424] CPU features: detected: Privileged Access Never"
+    },
+    {
+      "ts": 1772339957267425000,
+      "label": "[    0.454999] CPU features: detected: PMUv3"
+    },
+    {
+      "ts": 1772339957268077000,
+      "label": "[    0.455865] CPU features: detected: SCTLR2"
+    },
+    {
+      "ts": 1772339957268908000,
+      "label": "[    0.456248] CPU features: detected: RAS Extension Support"
+    },
+    {
+      "ts": 1772339957269795000,
+      "label": "[    0.456977] CPU features: detected: RASv1p1 Extension Support"
+    },
+    {
+      "ts": 1772339957270654000,
+      "label": "[    0.457429] CPU features: detected: Random Number Generator"
+    },
+    {
+      "ts": 1772339957271535000,
+      "label": "[    0.457864] CPU features: detected: Speculation barrier (SB)"
+    },
+    {
+      "ts": 1772339957272648000,
+      "label": "[    0.458291] CPU features: detected: Stage-2 Force Write-Back"
+    },
+    {
+      "ts": 1772339957273803000,
+      "label": "[    0.458738] CPU features: detected: Trap EL0 IMPLEMENTATION DEFINED functionality"
+    },
+    {
+      "ts": 1772339957274829000,
+      "label": "[    0.459279] CPU features: detected: TLB range maintenance instructions"
+    },
+    {
+      "ts": 1772339957275629000,
+      "label": "[    0.459744] CPU features: detected: WFx with timeout"
+    },
+    {
+      "ts": 1772339957276552000,
+      "label": "[    0.460596] CPU features: detected: Scalable Matrix Extension"
+    },
+    {
+      "ts": 1772339957277221000,
+      "label": "[    0.461049] CPU features: detected: FA64"
+    },
+    {
+      "ts": 1772339957277893000,
+      "label": "[    0.461413] CPU features: detected: SME2"
+    },
+    {
+      "ts": 1772339957279012000,
+      "label": "[    0.461789] CPU features: detected: Speculative Store Bypassing Safe (SSBS)"
+    },
+    {
+      "ts": 1772339957279964000,
+      "label": "[    0.462266] CPU features: detected: Scalable Vector Extension"
+    },
+    {
+      "ts": 1772339957280901000,
+      "label": "[    0.501058] alternatives: applying system-wide alternatives"
+    },
+    {
+      "ts": 1772339957282029000,
+      "label": "[    0.583079] CPU features: detected: Hardware dirty bit management on CPU0"
+    },
+    {
+      "ts": 1772339957283352000,
+      "label": "[    0.586831] SVE: maximum available vector length 256 bytes per vector"
+    },
+    {
+      "ts": 1772339957284287000,
+      "label": "[    0.587473] SVE: default vector length 64 bytes per vector"
+    },
+    {
+      "ts": 1772339957285347000,
+      "label": "[    0.592734] SME: minimum available vector length 16 bytes per vector"
+    },
+    {
+      "ts": 1772339957286441000,
+      "label": "[    0.593206] SME: maximum available vector length 256 bytes per vector"
+    },
+    {
+      "ts": 1772339957287391000,
+      "label": "[    0.593659] SME: default vector length 32 bytes per vector"
+    },
+    {
+      "ts": 1772339957289642000,
+      "label": "[    0.663252] Memory: 8044556K/8388608K available (18304K kernel code, 5390K rwdata, 12648K rodata, 3200K init, 681K bss, 307332K reserved, 32768K cma-reserved)"
+    },
+    {
+      "ts": 1772339957290244000,
+      "label": "[    0.792347] devtmpfs: initialized"
+    },
+    {
+      "ts": 1772339957291828000,
+      "label": "[    1.028332] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns"
+    },
+    {
+      "ts": 1772339957293029000,
+      "label": "[    1.031443] posixtimers hash table entries: 512 (order: 1, 8192 bytes, linear)"
+    },
+    {
+      "ts": 1772339957294645000,
+      "label": "[    1.033394] futex hash table entries: 256 (16384 bytes on 1 NUMA nodes, total 16 KiB, linear)."
+    },
+    {
+      "ts": 1772339957295472000,
+      "label": "[    1.048382] 22656 pages in range for non-PLT usage"
+    },
+    {
+      "ts": 1772339957296257000,
+      "label": "[    1.048732] 514176 pages in range for PLT usage"
+    },
+    {
+      "ts": 1772339957297140000,
+      "label": "[    1.062199] pinctrl core: initialized pinctrl subsystem"
+    },
+    {
+      "ts": 1772339957297817000,
+      "label": "[    1.137100] DMI not present or invalid."
+    },
+    {
+      "ts": 1772339957298824000,
+      "label": "[    1.281505] NET: Registered PF_NETLINK/PF_ROUTE protocol family"
+    },
+    {
+      "ts": 1772339957300009000,
+      "label": "[    1.336759] DMA: preallocated 1024 KiB GFP_KERNEL pool for atomic allocations"
+    },
+    {
+      "ts": 1772339957301296000,
+      "label": "[    1.343475] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations"
+    },
+    {
+      "ts": 1772339957302640000,
+      "label": "[    1.354826] DMA: preallocated 1024 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations"
+    },
+    {
+      "ts": 1772339957303582000,
+      "label": "[    1.356594] audit: initializing netlink subsys (disabled)"
+    },
+    {
+      "ts": 1772339957305346000,
+      "label": "[    1.364977] audit: type=2000 audit(1.180:1): state=initialized audit_enabled=0 res=1"
+    },
+    {
+      "ts": 1772339957306364000,
+      "label": "[    1.414294] thermal_sys: Registered thermal governor 'step_wise'"
+    },
+    {
+      "ts": 1772339957307454000,
+      "label": "[    1.414562] thermal_sys: Registered thermal governor 'power_allocator'"
+    },
+    {
+      "ts": 1772339957308149000,
+      "label": "[    1.417697] cpuidle: using governor menu"
+    },
+    {
+      "ts": 1772339957309271000,
+      "label": "[    1.429470] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers."
+    },
+    {
+      "ts": 1772339957310200000,
+      "label": "[    1.431253] ASID allocator initialised with 65536 entries"
+    },
+    {
+      "ts": 1772339957310938000,
+      "label": "[    1.506411] Serial: AMBA PL011 UART driver"
+    },
+    {
+      "ts": 1772339957312344000,
+      "label": "[    2.079519] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 15, base_baud = 0) is a PL011 rev1"
+    },
+    {
+      "ts": 1772339957313111000,
+      "label": "[    2.089185] printk: console [ttyAMA0] enabled"
+    },
+    {
+      "ts": 1772339957412080000,
+      "label": "[    2.352670] HugeTLB: allocation took 0ms with hugepage_allocation_threads=1"
+    },
+    {
+      "ts": 1772339957414076000,
+      "label": "[    2.354701] HugeTLB: allocation took 0ms with hugepage_allocation_threads=1"
+    },
+    {
+      "ts": 1772339957417828000,
+      "label": "[    2.358218] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages"
+    },
+    {
+      "ts": 1772339957419872000,
+      "label": "[    2.360452] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page"
+    },
+    {
+      "ts": 1772339957421903000,
+      "label": "[    2.362447] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages"
+    },
+    {
+      "ts": 1772339957423845000,
+      "label": "[    2.364443] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page"
+    },
+    {
+      "ts": 1772339957425948000,
+      "label": "[    2.366430] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages"
+    },
+    {
+      "ts": 1772339957428222000,
+      "label": "[    2.368514] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page"
+    },
+    {
+      "ts": 1772339957430461000,
+      "label": "[    2.370859] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages"
+    },
+    {
+      "ts": 1772339957432556000,
+      "label": "[    2.373046] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page"
+    },
+    {
+      "ts": 1772339957496775000,
+      "label": "[    2.437691] ACPI: Interpreter disabled."
+    },
+    {
+      "ts": 1772339957589759000,
+      "label": "[    2.530643] iommu: Default domain type: Translated"
+    },
+    {
+      "ts": 1772339957591634000,
+      "label": "[    2.532390] iommu: DMA domain TLB invalidation policy: strict mode"
+    },
+    {
+      "ts": 1772339957601052000,
+      "label": "[    2.542071] SCSI subsystem initialized"
+    },
+    {
+      "ts": 1772339957617397000,
+      "label": "[    2.558184] usbcore: registered new interface driver usbfs"
+    },
+    {
+      "ts": 1772339957620616000,
+      "label": "[    2.561473] usbcore: registered new interface driver hub"
+    },
+    {
+      "ts": 1772339957623269000,
+      "label": "[    2.564089] usbcore: registered new device driver usb"
+    },
+    {
+      "ts": 1772339957656146000,
+      "label": "[    2.596976] pps_core: LinuxPPS API ver. 1 registered"
+    },
+    {
+      "ts": 1772339957658357000,
+      "label": "[    2.598619] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>"
+    },
+    {
+      "ts": 1772339957660521000,
+      "label": "[    2.601526] PTP clock support registered"
+    },
+    {
+      "ts": 1772339957665580000,
+      "label": "[    2.606661] EDAC MC: Ver: 3.0.0"
+    },
+    {
+      "ts": 1772339957677127000,
+      "label": "[    2.617922] scmi_core: SCMI protocol bus registered"
+    },
+    {
+      "ts": 1772339957710064000,
+      "label": "[    2.651044] FPGA manager framework"
+    },
+    {
+      "ts": 1772339957774383000,
+      "label": "[    2.715574] vgaarb: loaded"
+    },
+    {
+      "ts": 1772339957790189000,
+      "label": "[    2.730923] clocksource: Switched to clocksource arch_sys_counter"
+    },
+    {
+      "ts": 1772339957800792000,
+      "label": "[    2.741764] VFS: Disk quotas dquot_6.6.0"
+    },
+    {
+      "ts": 1772339957803101000,
+      "label": "[    2.743635] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)"
+    },
+    {
+      "ts": 1772339957815321000,
+      "label": "[    2.755971] pnp: PnP ACPI: disabled"
+    },
+    {
+      "ts": 1772339957982486000,
+      "label": "[    2.923356] NET: Registered PF_INET protocol family"
+    },
+    {
+      "ts": 1772339957990422000,
+      "label": "[    2.930789] IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)"
+    },
+    {
+      "ts": 1772339958056658000,
+      "label": "[    2.997077] tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)"
+    },
+    {
+      "ts": 1772339958059944000,
+      "label": "[    3.000331] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)"
+    },
+    {
+      "ts": 1772339958062576000,
+      "label": "[    3.002906] TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)"
+    },
+    {
+      "ts": 1772339958080878000,
+      "label": "[    3.021205] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)"
+    },
+    {
+      "ts": 1772339958098742000,
+      "label": "[    3.039246] TCP: Hash tables configured (established 65536 bind 65536)"
+    },
+    {
+      "ts": 1772339958105804000,
+      "label": "[    3.046096] UDP hash table entries: 4096 (order: 6, 262144 bytes, linear)"
+    },
+    {
+      "ts": 1772339958112163000,
+      "label": "[    3.052635] UDP-Lite hash table entries: 4096 (order: 6, 262144 bytes, linear)"
+    },
+    {
+      "ts": 1772339958122291000,
+      "label": "[    3.063034] NET: Registered PF_UNIX/PF_LOCAL protocol family"
+    },
+    {
+      "ts": 1772339958138021000,
+      "label": "[    3.078345] RPC: Registered named UNIX socket transport module."
+    },
+    {
+      "ts": 1772339958139612000,
+      "label": "[    3.080239] RPC: Registered udp transport module."
+    },
+    {
+      "ts": 1772339958141151000,
+      "label": "[    3.081741] RPC: Registered tcp transport module."
+    },
+    {
+      "ts": 1772339958142827000,
+      "label": "[    3.083273] RPC: Registered tcp-with-tls transport module."
+    },
+    {
+      "ts": 1772339958144736000,
+      "label": "[    3.084961] RPC: Registered tcp NFSv4.1 backchannel transport module."
+    },
+    {
+      "ts": 1772339958146515000,
+      "label": "[    3.087449] PCI: CLS 0 bytes, default 64"
+    },
+    {
+      "ts": 1772339958180375000,
+      "label": "[    3.121459] Unpacking initramfs..."
+    },
+    {
+      "ts": 1772339958188899000,
+      "label": "[    3.129356] Initramfs unpacking failed: invalid magic at start of compressed archive"
+    },
+    {
+      "ts": 1772339958365453000,
+      "label": "[    3.305937] kvm [1]: nv: 567 coarse grained trap handlers"
+    },
+    {
+      "ts": 1772339958424567000,
+      "label": "[    3.365388] kvm [1]: nv: 664 fine grained trap handlers"
+    },
+    {
+      "ts": 1772339958452091000,
+      "label": "[    3.392857] kvm [1]: IPA Size Limit: 52 bits"
+    },
+    {
+      "ts": 1772339958456439000,
+      "label": "[    3.397322] kvm [1]: GICv3: no GICV resource entry"
+    },
+    {
+      "ts": 1772339958466380000,
+      "label": "[    3.407262] kvm [1]: disabling GICv2 emulation"
+    },
+    {
+      "ts": 1772339958468765000,
+      "label": "[    3.409407] kvm [1]: GIC system register CPU interface enabled"
+    },
+    {
+      "ts": 1772339958474543000,
+      "label": "[    3.415428] kvm [1]: vgic interrupt IRQ9"
+    },
+    {
+      "ts": 1772339958478881000,
+      "label": "[    3.419641] kvm [1]: VHE mode initialized successfully"
+    },
+    {
+      "ts": 1772339958550765000,
+      "label": "[    3.491611] Initialise system trusted keyrings"
+    },
+    {
+      "ts": 1772339958558734000,
+      "label": "[    3.499324] workingset: timestamp_bits=42 max_order=21 bucket_order=0"
+    },
+    {
+      "ts": 1772339958590033000,
+      "label": "[    3.530746] squashfs: version 4.0 (2009/01/31) Phillip Lougher"
+    },
+    {
+      "ts": 1772339958609747000,
+      "label": "[    3.550634] NFS: Registering the id_resolver key type"
+    },
+    {
+      "ts": 1772339958617200000,
+      "label": "[    3.558066] Key type id_resolver registered"
+    },
+    {
+      "ts": 1772339958618779000,
+      "label": "[    3.559729] Key type id_legacy registered"
+    },
+    {
+      "ts": 1772339958622239000,
+      "label": "[    3.562782] nfs4filelayout_init: NFSv4 File Layout Driver Registering..."
+    },
+    {
+      "ts": 1772339958627016000,
+      "label": "[    3.567322] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering..."
+    },
+    {
+      "ts": 1772339958640240000,
+      "label": "[    3.580979] 9p: Installing v9fs 9p2000 file system support"
+    },
+    {
+      "ts": 1772339958708398000,
+      "label": "[    3.649317] Freeing initrd memory: 39692K"
+    },
+    {
+      "ts": 1772339959175264000,
+      "label": "[    4.115881] Key type asymmetric registered"
+    },
+    {
+      "ts": 1772339959177016000,
+      "label": "[    4.117799] Asymmetric key parser 'x509' registered"
+    },
+    {
+      "ts": 1772339959179891000,
+      "label": "[    4.120503] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)"
+    },
+    {
+      "ts": 1772339959182030000,
+      "label": "[    4.122910] io scheduler mq-deadline registered"
+    },
+    {
+      "ts": 1772339959183688000,
+      "label": "[    4.124636] io scheduler kyber registered"
+    },
+    {
+      "ts": 1772339959187174000,
+      "label": "[    4.128177] io scheduler bfq registered"
+    },
+    {
+      "ts": 1772339959544546000,
+      "label": "[    4.485354] ledtrig-cpu: registered to indicate activity on CPUs"
+    },
+    {
+      "ts": 1772339959576987000,
+      "label": "[    4.516970] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:"
+    },
+    {
+      "ts": 1772339959582376000,
+      "label": "[    4.522304] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000"
+    },
+    {
+      "ts": 1772339959586869000,
+      "label": "[    4.527075] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000"
+    },
+    {
+      "ts": 1772339959589734000,
+      "label": "[    4.529823] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000"
+    },
+    {
+      "ts": 1772339959595232000,
+      "label": "[    4.535470] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits"
+    },
+    {
+      "ts": 1772339959602043000,
+      "label": "[    4.540970] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]"
+    },
+    {
+      "ts": 1772339959611832000,
+      "label": "[    4.552326] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00"
+    },
+    {
+      "ts": 1772339959614875000,
+      "label": "[    4.555518] pci_bus 0000:00: root bus resource [bus 00-ff]"
+    },
+    {
+      "ts": 1772339959617427000,
+      "label": "[    4.557849] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]"
+    },
+    {
+      "ts": 1772339959619487000,
+      "label": "[    4.559951] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]"
+    },
+    {
+      "ts": 1772339959621674000,
+      "label": "[    4.562042] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]"
+    },
+    {
+      "ts": 1772339959631184000,
+      "label": "[    4.571382] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint"
+    },
+    {
+      "ts": 1772339959656501000,
+      "label": "[    4.596801] pci 0000:00:01.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint"
+    },
+    {
+      "ts": 1772339959661805000,
+      "label": "[    4.602424] pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]"
+    },
+    {
+      "ts": 1772339959663810000,
+      "label": "[    4.604468] pci 0000:00:01.0: BAR 1 [mem 0x10000000-0x10000fff]"
+    },
+    {
+      "ts": 1772339959666426000,
+      "label": "[    4.606660] pci 0000:00:01.0: BAR 4 [mem 0x10004000-0x10007fff 64bit pref]"
+    },
+    {
+      "ts": 1772339959668443000,
+      "label": "[    4.609021] pci 0000:00:01.0: ROM [mem 0x10040000-0x1007ffff pref]"
+    },
+    {
+      "ts": 1772339959676481000,
+      "label": "[    4.616683] pci 0000:00:02.0: [1af4:1009] type 00 class 0x000200 conventional PCI endpoint"
+    },
+    {
+      "ts": 1772339959679921000,
+      "label": "[    4.620413] pci 0000:00:02.0: BAR 0 [io  0x1020-0x103f]"
+    },
+    {
+      "ts": 1772339959681876000,
+      "label": "[    4.622473] pci 0000:00:02.0: BAR 1 [mem 0x10080000-0x10080fff]"
+    },
+    {
+      "ts": 1772339959684021000,
+      "label": "[    4.624446] pci 0000:00:02.0: BAR 4 [mem 0x10084000-0x10087fff 64bit pref]"
+    },
+    {
+      "ts": 1772339959691315000,
+      "label": "[    4.631359] pci 0000:00:03.0: [1af4:1001] type 00 class 0x010000 conventional PCI endpoint"
+    },
+    {
+      "ts": 1772339959695074000,
+      "label": "[    4.635467] pci 0000:00:03.0: BAR 0 [io  0x1080-0x10ff]"
+    },
+    {
+      "ts": 1772339959697326000,
+      "label": "[    4.637844] pci 0000:00:03.0: BAR 1 [mem 0x10088000-0x10088fff]"
+    },
+    {
+      "ts": 1772339959699445000,
+      "label": "[    4.639866] pci 0000:00:03.0: BAR 4 [mem 0x1008c000-0x1008ffff 64bit pref]"
+    },
+    {
+      "ts": 1772339959730109000,
+      "label": "[    4.670633] pci 0000:00:01.0: ROM [mem 0x10000000-0x1003ffff pref]: assigned"
+    },
+    {
+      "ts": 1772339959733407000,
+      "label": "[    4.673684] pci 0000:00:01.0: BAR 4 [mem 0x8000000000-0x8000003fff 64bit pref]: assigned"
+    },
+    {
+      "ts": 1772339959737616000,
+      "label": "[    4.677862] pci 0000:00:02.0: BAR 4 [mem 0x8000004000-0x8000007fff 64bit pref]: assigned"
+    },
+    {
+      "ts": 1772339959741215000,
+      "label": "[    4.681500] pci 0000:00:03.0: BAR 4 [mem 0x8000008000-0x800000bfff 64bit pref]: assigned"
+    },
+    {
+      "ts": 1772339959744600000,
+      "label": "[    4.684889] pci 0000:00:01.0: BAR 1 [mem 0x10040000-0x10040fff]: assigned"
+    },
+    {
+      "ts": 1772339959747777000,
+      "label": "[    4.688214] pci 0000:00:02.0: BAR 1 [mem 0x10041000-0x10041fff]: assigned"
+    },
+    {
+      "ts": 1772339959750253000,
+      "label": "[    4.690721] pci 0000:00:03.0: BAR 1 [mem 0x10042000-0x10042fff]: assigned"
+    },
+    {
+      "ts": 1772339959752673000,
+      "label": "[    4.693237] pci 0000:00:03.0: BAR 0 [io  0x1000-0x107f]: assigned"
+    },
+    {
+      "ts": 1772339959755367000,
+      "label": "[    4.695696] pci 0000:00:01.0: BAR 0 [io  0x1080-0x109f]: assigned"
+    },
+    {
+      "ts": 1772339959757932000,
+      "label": "[    4.698457] pci 0000:00:02.0: BAR 0 [io  0x10a0-0x10bf]: assigned"
+    },
+    {
+      "ts": 1772339959761669000,
+      "label": "[    4.702168] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]"
+    },
+    {
+      "ts": 1772339959763707000,
+      "label": "[    4.704249] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]"
+    },
+    {
+      "ts": 1772339959765953000,
+      "label": "[    4.706459] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff]"
+    },
+    {
+      "ts": 1772339960755458000,
+      "label": "[    5.695877] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled"
+    },
+    {
+      "ts": 1772339960860202000,
+      "label": "[    5.801105] msm_serial: driver initialized"
+    },
+    {
+      "ts": 1772339960873926000,
+      "label": "[    5.814740] SuperH (H)SCI(F) driver initialized"
+    },
+    {
+      "ts": 1772339960882971000,
+      "label": "[    5.823830] STM32 USART driver initialized"
+    },
+    {
+      "ts": 1772339960975000000,
+      "label": "[    5.905747] arm-smmu-v3 9050000.smmuv3: ias 44-bit, oas 44-bit (features 0x01088705)"
+    },
+    {
+      "ts": 1772339961006012000,
+      "label": "[    5.946556] arm-smmu-v3 9050000.smmuv3: allocated 65536 entries for cmdq"
+    },
+    {
+      "ts": 1772339961012607000,
+      "label": "[    5.953103] arm-smmu-v3 9050000.smmuv3: allocated 32768 entries for evtq"
+    },
+    {
+      "ts": 1772339961050069000,
+      "label": "[    5.990874] pci 0000:00:00.0: Adding to iommu group 0"
+    },
+    {
+      "ts": 1772339961053551000,
+      "label": "[    5.994369] pci 0000:00:01.0: Adding to iommu group 1"
+    },
+    {
+      "ts": 1772339961056976000,
+      "label": "[    5.997679] pci 0000:00:02.0: Adding to iommu group 2"
+    },
+    {
+      "ts": 1772339961060313000,
+      "label": "[    6.001014] pci 0000:00:03.0: Adding to iommu group 3"
+    },
+    {
+      "ts": 1772339961228239000,
+      "label": "[    6.169321] loop: module loaded"
+    },
+    {
+      "ts": 1772339961259288000,
+      "label": "[    6.200343] megasas: 07.734.00.00-rc1"
+    },
+    {
+      "ts": 1772339961331234000,
+      "label": "[    6.271094] physmap-flash 4000000.flash: physmap platform flash device: [mem 0x04000000-0x07ffffff]"
+    },
+    {
+      "ts": 1772339961340266000,
+      "label": "[    6.280006] 4000000.flash: Found 2 x16 devices at 0x0 in 32-bit bank. Manufacturer ID 0x000000 Chip ID 0x000000"
+    },
+    {
+      "ts": 1772339961344381000,
+      "label": "[    6.284769] Intel/Sharp Extended Query Table at 0x0031"
+    },
+    {
+      "ts": 1772339961348375000,
+      "label": "[    6.289299] Using buffer write method"
+    },
+    {
+      "ts": 1772339961608291000,
+      "label": "[    6.548982] tun: Universal TUN/TAP device driver, 1.6"
+    },
+    {
+      "ts": 1772339961642784000,
+      "label": "[    6.583849] thunder_xcv, ver 1.0"
+    },
+    {
+      "ts": 1772339961645530000,
+      "label": "[    6.586610] thunder_bgx, ver 1.0"
+    },
+    {
+      "ts": 1772339961648038000,
+      "label": "[    6.589191] nicpf, ver 1.0"
+    },
+    {
+      "ts": 1772339961694566000,
+      "label": "[    6.635357] e1000: Intel(R) PRO/1000 Network Driver"
+    },
+    {
+      "ts": 1772339961696448000,
+      "label": "[    6.637202] e1000: Copyright (c) 1999-2006 Intel Corporation."
+    },
+    {
+      "ts": 1772339961699421000,
+      "label": "[    6.640250] e1000e: Intel(R) PRO/1000 Network Driver"
+    },
+    {
+      "ts": 1772339961701245000,
+      "label": "[    6.641903] e1000e: Copyright(c) 1999 - 2015 Intel Corporation."
+    },
+    {
+      "ts": 1772339961704845000,
+      "label": "[    6.645496] igb: Intel(R) Gigabit Ethernet Network Driver"
+    },
+    {
+      "ts": 1772339961706972000,
+      "label": "[    6.647624] igb: Copyright (c) 2007-2014 Intel Corporation."
+    },
+    {
+      "ts": 1772339961710434000,
+      "label": "[    6.651022] igbvf: Intel(R) Gigabit Virtual Function Network Driver"
+    },
+    {
+      "ts": 1772339961712269000,
+      "label": "[    6.652961] igbvf: Copyright (c) 2009 - 2012 Intel Corporation."
+    },
+    {
+      "ts": 1772339961724708000,
+      "label": "[    6.665686] sky2: driver version 1.30"
+    },
+    {
+      "ts": 1772339961771557000,
+      "label": "[    6.712425] VFIO - User Level meta-driver version: 0.3"
+    },
+    {
+      "ts": 1772339961880745000,
+      "label": "[    6.821495] usbcore: registered new interface driver usb-storage"
+    },
+    {
+      "ts": 1772339961987057000,
+      "label": "[    6.927793] rtc-pl031 9010000.pl031: registered as rtc0"
+    },
+    {
+      "ts": 1772339961993154000,
+      "label": "[    6.932056] rtc-pl031 9010000.pl031: setting system clock to 2026-03-01T04:39:21 UTC (1772339961)"
+    },
+    {
+      "ts": 1772339962019744000,
+      "label": "[    6.960601] i2c_dev: i2c /dev entries driver"
+    },
+    {
+      "ts": 1772339962237652000,
+      "label": "[    7.178403] sdhci: Secure Digital Host Controller Interface driver"
+    },
+    {
+      "ts": 1772339962239088000,
+      "label": "[    7.180104] sdhci: Copyright(c) Pierre Ossman"
+    },
+    {
+      "ts": 1772339962268054000,
+      "label": "[    7.208719] Synopsys Designware Multimedia Card Interface Driver"
+    },
+    {
+      "ts": 1772339962303466000,
+      "label": "[    7.244191] sdhci-pltfm: SDHCI platform and OF driver helper"
+    },
+    {
+      "ts": 1772339962396398000,
+      "label": "[    7.337090] SMCCC: SOC_ID: ARCH_SOC_ID not implemented, skipping ...."
+    },
+    {
+      "ts": 1772339962437696000,
+      "label": "[    7.378419] usbcore: registered new interface driver usbhid"
+    },
+    {
+      "ts": 1772339962439074000,
+      "label": "[    7.380138] usbhid: USB HID core driver"
+    },
+    {
+      "ts": 1772339962566922000,
+      "label": "[    7.506786] hw perfevents: enabled with armv8_pmuv3 PMU driver, 7 (0,8000003f) counters available"
+    },
+    {
+      "ts": 1772339962702731000,
+      "label": "[    7.643475] NET: Registered PF_PACKET protocol family"
+    },
+    {
+      "ts": 1772339962710664000,
+      "label": "[    7.651642] 9pnet: Installing 9P2000 support"
+    },
+    {
+      "ts": 1772339962713337000,
+      "label": "[    7.654296] Key type dns_resolver registered"
+    },
+    {
+      "ts": 1772339963139954000,
+      "label": "[    8.080889] registered taskstats version 1"
+    },
+    {
+      "ts": 1772339963157442000,
+      "label": "[    8.098387] Loading compiled-in X.509 certificates"
+    },
+    {
+      "ts": 1772339963493709000,
+      "label": "[    8.434604] Demotion targets for Node 0: null"
+    },
+    {
+      "ts": 1772339963604335000,
+      "label": "[    8.545034] virtio_blk virtio2: 1/0/0 default/read/poll queues"
+    },
+    {
+      "ts": 1772339963619589000,
+      "label": "[    8.559920] virtio_blk virtio2: [vda] 20971520 512-byte logical blocks (10.7 GB/10.0 GiB)"
+    },
+    {
+      "ts": 1772339963694468000,
+      "label": "[    8.635471] clk: Disabling unused clocks"
+    },
+    {
+      "ts": 1772339963707206000,
+      "label": "[    8.648073] PM: genpd: Disabling unused power domains"
+    },
+    {
+      "ts": 1772339963731762000,
+      "label": "[    8.672452] check access for rdinit=/init failed: -2, ignoring"
+    },
+    {
+      "ts": 1772339964716708000,
+      "label": "[    9.657428] EXT4-fs (vda): recovery complete"
+    },
+    {
+      "ts": 1772339964737006000,
+      "label": "[    9.674957] EXT4-fs (vda): mounted filesystem e0a4fb51-6340-4a04-91cd-1a99d5a288b0 r/w with ordered data mode. Quota mode: none."
+    },
+    {
+      "ts": 1772339964739982000,
+      "label": "[    9.680619] VFS: Mounted root (ext4 filesystem) on device 254:0."
+    },
+    {
+      "ts": 1772339964747408000,
+      "label": "[    9.688549] devtmpfs: mounted"
+    },
+    {
+      "ts": 1772339965030125000,
+      "label": "[    9.970898] Freeing unused kernel memory: 3200K"
+    },
+    {
+      "ts": 1772339965035870000,
+      "label": "[    9.976915] Run /init as init process"
+    },
+    {
+      "ts": 1772339965727832000,
+      "label": "+ export PATH=/usr/bin:/bin:/sbin"
+    },
+    {
+      "ts": 1772339965731929000,
+      "label": "+ PATH=/usr/bin:/bin:/sbin"
+    },
+    {
+      "ts": 1772339965736469000,
+      "label": "+ mount -t proc none /proc"
+    },
+    {
+      "ts": 1772339966048936000,
+      "label": "+ mount -t sysfs none /sys"
+    },
+    {
+      "ts": 1772339966179782000,
+      "label": "+ mkdir /dev/pts"
+    },
+    {
+      "ts": 1772339966298767000,
+      "label": "+ mount devpts /dev/pts -t devpts"
+    },
+    {
+      "ts": 1772339966495827000,
+      "label": "+ ln -s /proc/self/fd /dev/fd"
+    },
+    {
+      "ts": 1772339966570562000,
+      "label": "+ ln -s /proc/self/fd/0 /dev/stdin"
+    },
+    {
+      "ts": 1772339966628097000,
+      "label": "+ ln -s /proc/self/fd/1 /dev/stdout"
+    },
+    {
+      "ts": 1772339966718850000,
+      "label": "+ ln -s /proc/self/fd/2 /dev/stderr"
+    },
+    {
+      "ts": 1772339966777695000,
+      "label": "+ hostname -F /hostname"
+    },
+    {
+      "ts": 1772339966857068000,
+      "label": "+ mount -t 9p -o trans=virtio host /host"
+    },
+    {
+      "ts": 1772339967055399000,
+      "label": "+ ifconfig -a"
+    },
+    {
+      "ts": 1772339967063371000,
+      "label": "+ grep -q eth0"
+    },
+    {
+      "ts": 1772339967294048000,
+      "label": "+ ifconfig eth0 up"
+    },
+    {
+      "ts": 1772339967389810000,
+      "label": "+ ifconfig eth0 10.0.2.15 netmask 255.255.255.0 broadcast 10.0.2.255"
+    },
+    {
+      "ts": 1772339967483281000,
+      "label": "+ route add default gw 10.0.2.2"
+    },
+    {
+      "ts": 1772339967567267000,
+      "label": "+ '[' 1 -ge 1 ']'"
+    },
+    {
+      "ts": 1772339967572254000,
+      "label": "+ true"
+    },
+    {
+      "ts": 1772339967573950000,
+      "label": "+ sync"
+    },
+    {
+      "ts": 1772339967686048000,
+      "label": "+ sleep 0.1"
+    },
+    {
+      "ts": 1772339967860820000,
+      "label": "+ echo o"
+    },
+    {
+      "ts": 1772339967871619000,
+      "label": "[   12.812676] sysrq: Power Off"
+    },
+    {
+      "ts": 1772339967884976000,
+      "label": "[   12.825457] Flash device refused suspend due to active operation (state 20)"
+    },
+    {
+      "ts": 1772339967886742000,
+      "label": "+ sleep 10"
+    },
+    {
+      "ts": 1772339967908959000,
+      "label": "[   12.849790] kvm: exiting hardware virtualization"
+    },
+    {
+      "ts": 1772339967913505000,
+      "label": "[   12.854507] reboot: Power down"
+    },
+    {
+      "ts": 1772339967918267000,
+      "label": "INFO:    PSCI Power Domain Map:"
+    },
+    {
+      "ts": 1772339967919480000,
+      "label": "INFO:      Domain Node : Level 1, parent_node 4294967295, State ON (0x0)"
+    },
+    {
+      "ts": 1772339967919809000,
+      "label": "INFO:      Domain Node : Level 1, parent_node 4294967295, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967920311000,
+      "label": "INFO:      CPU Node : MPID 0x0, parent_node 0, State ON (0x0)"
+    },
+    {
+      "ts": 1772339967920736000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967921024000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967921312000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967921601000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967921889000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967922172000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967922465000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967922760000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967923048000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967923337000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967923633000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967923928000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967924243000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967924548000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967924847000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 0, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967925151000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967925454000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967925782000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967926086000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967926389000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967926695000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967927000000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967927306000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967927611000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967927914000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967928214000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967928521000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967928822000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967929129000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967929431000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967929735000,
+      "label": "INFO:      CPU Node : MPID 0xffffffffffffffff, parent_node 1, State OFF (0x2)"
+    },
+    {
+      "ts": 1772339967930288000,
+      "label": "ERROR:   QEMU System Power off: with GPIO."
+    }
+  ],
+  "traces": [
+    {
+      "start": 1772339946117160000,
+      "end": 1772339948117160000
+    },
+    {
+      "start": 1772339947617160000,
+      "end": 1772339949617160000
+    },
+    {
+      "start": 1772339949117160000,
+      "end": 1772339951117160000
+    },
+    {
+      "start": 1772339950617160000,
+      "end": 1772339952617160000
+    },
+    {
+      "start": 1772339956617160000,
+      "end": 1772339958617160000
+    },
+    {
+      "start": 1772339958117160000,
+      "end": 1772339960117160000
+    },
+    {
+      "start": 1772339959617160000,
+      "end": 1772339961617160000
+    },
+    {
+      "start": 1772339961117160000,
+      "end": 1772339963117160000
+    },
+    {
+      "start": 1772339962617160000,
+      "end": 1772339964617160000
+    },
+    {
+      "start": 1772339964117160000,
+      "end": 1772339966117160000
+    },
+    {
+      "start": 1772339965617160000,
+      "end": 1772339967617160000
+    },
+    {
+      "start": 1772339967117160000,
+      "end": 1772339969117160000
+    }
+  ],
+  "trace_url": "https://raw.githubusercontent.com/once-upon-a-boot/boot-arm64/refs/heads/main/traces",
+  "src_url": "https://raw.githubusercontent.com/once-upon-a-boot/boot-arm64/refs/heads/main/sources"
+}
